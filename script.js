@@ -7,13 +7,13 @@
 
 // Output:
 // abcdef"
-// let text="abcadeecfb"
-// const s=new Set();
-// for(i=0;i<text.length;i++)
-// {
-//    s.add(text[i]);
-// }
-// console.log(s);
+let text="abcadeecfb"
+const s=new Set();
+for(i=0;i<text.length;i++)
+{
+   s.add(text[i]);
+}
+console.log(s);
 // "Problem:
 // You are given a string (STR) of length N, you have to print the count of all alphabet.(using maps)
 
